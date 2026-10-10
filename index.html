@@ -1,39 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <link rel="icon" type="image/x-icon" href="imagenes/header/LogoLol.png">
-    <title>League of Legends</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090e17">
+  <meta name="description" content="Una guía de League of Legends: campeones, estrategia y modos de juego.">
+  <title>League of Legends | La Grieta te espera</title>
+  <link rel="icon" href="imagenes/header/LogoLol.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img class="LogoLol" src="imagenes/header/LogoLol.png"></img>
-        <h2>League of Legends</h2>
-        <img class="FioraEmote" src="imagenes/header/FioraEmote.jpg"></img>
-    </header>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="League of Legends, inicio">
+      <img src="imagenes/header/LogoLol.png" alt="Logo de League of Legends">
+      <span>LEAGUE OF <b>LEGENDS</b></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#universo">Universo</a><a href="#campeones">Campeones</a><a href="#juego">Cómo se juega</a>
+    </nav>
+    <a class="header-cta" href="#juego">Descubre el juego <span aria-hidden="true">↗</span></a>
+  </header>
 
-    <h1>Hola</h1>
-    <h2>Hola 2</h2>
-    <h3>Hola 3</h3>
-    <p>Hola como estas, mi nombre es Will Stmit</p>
-    <img src="imagenes/Sin título.png">Mi foto</img>
-    <img class="imagen-2" src="imagenes/WhatsApp Video 2023-07-17 at 12.00.57 AM_013.jpg">xd</img>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Ilustración de una campeona de League of Legends"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> ELIGE TU LEYENDA</p>
+        <h1 id="hero-title">LA GRIETA<br><em>TE ESPERA</em></h1>
+        <p class="hero-copy">Un campo de batalla. Más de cien campeones. Una partida que puede cambiarlo todo.</p>
+        <a class="button button-gold" href="#campeones">Explora el universo <span aria-hidden="true">↓</span></a>
+        <p class="hero-note">ESTRATEGIA · EQUIPO · LEYENDA</p>
+      </div>
+      <div class="hero-index"><span>01</span> / 03</div>
+    </section>
 
-    <div>
-        <h1>Hola div</h1>
-        <h2>adasd</h2>
-        <h3>Lol</h3>
-        <p>Hola como estas, mi nombre es div</p>
-        <img src="imagenes/Akali.jpg">Mi foto</img>
-    </div>
+    <section class="intro section-wrap" id="universo">
+      <div class="section-kicker">UN UNIVERSO, INFINITAS HISTORIAS</div>
+      <div class="intro-grid">
+        <h2>Tu próxima<br>gran historia<br><em>empieza aquí.</em></h2>
+        <div class="intro-text"><p>League of Legends es un juego de estrategia por equipos donde dos escuadras se enfrentan para abrirse paso hasta la base rival. Cada campeón aporta habilidades, personalidad y una forma distinta de cambiar el curso de la partida.</p><p>Aprende las reglas, encuentra tu estilo y crea jugadas que tu equipo recordará.</p></div>
+      </div>
+      <div class="stats" aria-label="Datos del juego">
+        <div><strong>5 <small>vs</small> 5</strong><span>JUEGO EN EQUIPO</span></div>
+        <div><strong>3</strong><span>RUTAS PRINCIPALES</span></div>
+        <div><strong>1</strong><span>NEXO POR DESTRUIR</span></div>
+      </div>
+    </section>
 
-    <footer>
-        <h1>Hola div</h1>
-        <h2>adasd</h2>
-    </footer>
+    <section class="champions section-wrap" id="campeones">
+      <div class="section-heading"><div><div class="section-kicker">ENCUENTRA TU ESTILO</div><h2>CAMPEONES <em>CON CARÁCTER</em></h2></div><p>Cada elección abre una nueva forma de jugar. ¿Quién serás en la Grieta?</p></div>
+      <div class="champion-grid">
+        <article class="champion-card champion-akali"><div class="card-art" role="img" aria-label="Arte de Akali"></div><div class="card-content"><span class="role">ASESINA · JONIA</span><h3>AKALI</h3><p>Rápida, precisa y siempre un paso adelante.</p></div><span class="card-number">01</span></article>
+        <article class="champion-card champion-fiora"><div class="card-art" role="img" aria-label="Emote de Fiora"></div><div class="card-content"><span class="role">LUCHADORA · DEMACIA</span><h3>FIORA</h3><p>Elegancia y precisión en cada duelo.</p></div><span class="card-number">02</span></article>
+        <article class="champion-card champion-unknown"><div class="card-art" role="img" aria-label="Espacio para una imagen de campeón"></div><div class="card-content"><span class="role">TU PRÓXIMO FAVORITO</span><h3>¿Y TÚ?</h3><p>Hay un campeón para cada estilo de juego.</p></div><span class="card-number">03</span></article>
+      </div>
+      <p class="image-note"><span aria-hidden="true">✳</span> Imágenes fáciles de cambiar: sustituye el archivo conservando su nombre. Los nombres recomendados están al final de esta página.</p>
+    </section>
 
+    <section class="gameplay" id="juego">
+      <div class="gameplay-art" role="img" aria-label="Escena de una partida de League of Legends"></div>
+      <div class="gameplay-content"><div class="section-kicker">CINCO JUGADORES. UN OBJETIVO.</div><h2>JUEGA EN<br><em>EQUIPO.</em></h2><p>Recorre las tres líneas, consigue recursos y coordina tus habilidades. Protege tu base mientras abres el camino hacia el Nexo enemigo: destruirlo es la victoria.</p>
+        <ol class="steps"><li><span>01</span><div><b>ELIGE TU CAMPEÓN</b><small>Encuentra las habilidades que van contigo.</small></div></li><li><span>02</span><div><b>CREA UNA ESTRATEGIA</b><small>Colabora con tu equipo en cada línea.</small></div></li><li><span>03</span><div><b>DESTRUYE EL NEXO</b><small>Avanza juntos hasta la base rival.</small></div></li></ol>
+      </div>
+    </section>
+
+    <section class="quote section-wrap"><span class="quote-mark" aria-hidden="true">“</span><blockquote>La victoria no se consigue solo. <em>Se construye jugada a jugada.</em></blockquote><span class="quote-caption">— LA GRIETA DEL INVOCADOR</span></section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><img src="imagenes/header/LogoLol.png" alt=""><span>LEAGUE OF <b>LEGENDS</b></span></a>
+    <p>Reúne a tu equipo. Encuentra tu leyenda.</p>
+    <nav aria-label="Navegación del pie de página"><a href="#universo">Universo</a><a href="#campeones">Campeones</a><a href="#juego">Cómo se juega</a><a href="#inicio">Volver arriba ↑</a></nav>
+    <small>Proyecto de fans · League of Legends y sus personajes pertenecen a Riot Games.</small>
+  </footer>
 </body>
 </html>
